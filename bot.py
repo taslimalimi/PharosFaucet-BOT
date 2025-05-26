@@ -1704,7 +1704,7 @@ class PharosTestnet:
                             await asyncio.sleep(3)
 
                 self.log(f"{Fore.CYAN + Style.BRIGHT}={Style.RESET_ALL}"*72)
-                seconds = 24 * 60 * 60
+                seconds = 10
                 while seconds > 0:
                     formatted_time = self.format_seconds(seconds)
                     print(
